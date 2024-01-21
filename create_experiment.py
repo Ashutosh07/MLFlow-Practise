@@ -26,6 +26,11 @@ experiment = get_mlflow_experiment(experiment_id=First_ML_Experiement)
 with mlflow.start_run(run_name ="First_Run", experiment_id=experiment.experiment_id) as run:
     # Your machine learning code goes here
     mlflow.log_param("learning_rate",0.01)
+    
+    with open("test_file.txt","w") as f:
+        f.write("This is a sample test file for artifact!")
+
+    mlflow.log_artifact(local_path= "test_file.txt",artifact_path="Artifacts")
         # print run info    
     print("run_id: {}".format(run.info.run_id))
     print("experiment_id: {}".format(run.info.experiment_id))
