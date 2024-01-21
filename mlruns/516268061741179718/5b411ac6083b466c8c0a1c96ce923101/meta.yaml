@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ML Experiement/first_test_flow.txt/5b411ac6083b466c8c0a1c96ce923101/artifacts
+end_time: 1705813708695
+entry_point_name: ''
+experiment_id: '516268061741179718'
+lifecycle_stage: active
+run_id: 5b411ac6083b466c8c0a1c96ce923101
+run_name: First_Run
+run_uuid: 5b411ac6083b466c8c0a1c96ce923101
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705813708565
+status: 3
+tags: []
+user_id: User

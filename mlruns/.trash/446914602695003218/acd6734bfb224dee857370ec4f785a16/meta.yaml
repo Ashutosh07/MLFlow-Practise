@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/User/OneDrive/Desktop/ML Experiement/first_test_flow.txt/acd6734bfb224dee857370ec4f785a16/artifacts
+deleted_time: 1705813697694
 end_time: 1705813353578
 entry_point_name: ''
 experiment_id: '446914602695003218'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: acd6734bfb224dee857370ec4f785a16
 run_name: First_Run
 run_uuid: acd6734bfb224dee857370ec4f785a16
