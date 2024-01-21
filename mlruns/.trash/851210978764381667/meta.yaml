@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/User/OneDrive/Desktop/ML Experiement/first_test_flow.txt
+creation_time: 1705810724277
+experiment_id: '851210978764381667'
+last_update_time: 1705810788998
+lifecycle_stage: deleted
+name: First_ML_Experiemnt
+tags:
+  Author: Ashutosh Shukla
+  env: test
+  version: 1.0.0

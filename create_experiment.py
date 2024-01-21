@@ -16,7 +16,8 @@ tags = {
 }
 
 First_ML_Experiement = create_experiments("First_ML_Experiemnt", "first_test_flow.txt",tags)
+print(First_ML_Experiement)
 
-
-print("New Experiment has been created with ID: %s"%First_ML_Experiement.experiment_id)
-print("Experiment name is: {}".format(First_ML_Experiement.name))
+#print("New Experiment has been created with ID: %s"%(First_ML_Experiement.experiment_id))
+#print("Experiment name is: {}".format(First_ML_Experiement.name))
+#print("New Experiment has been created with ID: {}".format(First_ML_Experiement.experiment_id))
