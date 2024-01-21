@@ -1,6 +1,9 @@
 artifact_location: file:///C:/Users/User/OneDrive/Desktop/ML Experiement/testing_mlflow1_artefacts
 creation_time: 1705810798317
 experiment_id: '859503651012984638'
-last_update_time: 1705810798317
-lifecycle_stage: active
+last_update_time: 1705813243271
+lifecycle_stage: deleted
 name: testing_mlflow1
+tags:
+  env: dev
+  version: 1.0.0
