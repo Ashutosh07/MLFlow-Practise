@@ -10,4 +10,4 @@ def create_experiments(Experiment_name : str, artifact_locations: str, tags_list
 
     return experiment_details
 
-print("Hello World")
+print("Hello World")#This gets executed first when this library is imported as it is not under main function

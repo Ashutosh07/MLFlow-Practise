@@ -1,6 +1,6 @@
 import mlflow
 
-from Utils import * as ut
+from Utils import *
 
 if __name__ == "__main__":
     mlflow.create_experiment(
@@ -15,4 +15,8 @@ tags = {
     "Author" : "Ashutosh Shukla"
 }
 
-First_ML_Experiemnt = ut.create_experiments("First_ML_Experiemnt", ,tags)
+First_ML_Experiement = create_experiments("First_ML_Experiemnt", "first_test_flow.txt",tags)
+
+
+print("New Experiment has been created with ID: %s"%First_ML_Experiement.experiment_id)
+print("Experiment name is: {}".format(First_ML_Experiement.name))
